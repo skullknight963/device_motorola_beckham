@@ -110,6 +110,9 @@ void vendor_load_properties()
     // Setting carrier prop
     std::string carrier = GetProperty("ro.boot.carrier", "unknown");
     property_override("ro.carrier", carrier.c_str());
+    
+    // SafetyNet Workaround
+    property_override("ro.boot.verifiedbootstate", "green");
 
     vendor_load_device_properties();
 
