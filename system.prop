@@ -12,6 +12,10 @@ use.voice.path.for.pcm.voip=false
 # Charger
 ro.charger.enable_suspend=true
 
+# Dex2oat64
+dalvik.vm.dex2oat64.enabled=true
+ro.sys.fw.dex2oat_thread_count=8
+
 # Deep Sleep
 pm.sleep_mode=1
 
