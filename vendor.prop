@@ -124,6 +124,9 @@ debug.sf.predict_hwc_composition_strategy=0
 # Factory reset partition
 ro.frp.pst=/dev/block/platform/soc/c0c4000.sdhci/by-name/frp
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # OEM Unlock reporting
 ro.oem_unlock_supported=1
 
