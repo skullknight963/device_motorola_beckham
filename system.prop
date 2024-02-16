@@ -2,6 +2,10 @@
 # system props for sdm660
 #
 
+# ART
+dalvik.vm.dex2oat-filter=quicken
+dalvik.vm.image-dex2oat-filter=quicken
+
 # Audio
 use.voice.path.for.pcm.voip=false
 
