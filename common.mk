@@ -47,10 +47,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@2.0-impl \
-    android.hardware.audio@2.0-service \
     android.hardware.audio@4.0-impl \
-    android.hardware.audio@4.0-service \
     android.hardware.audio.service \
     android.hardware.audio.effect@4.0-impl \
     audio.r_submix.default \
@@ -60,6 +57,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener
+
+TARGET_EXCLUDES_AUDIOFX := true
 
 ifneq ($(PREBUILT_AUDIOHAL), true)
 PRODUCT_PACKAGES += \
