@@ -205,6 +205,10 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     wlan_carrier_bin.sh
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/rdp_fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom \
+    $(LOCAL_PATH)/rootdir/etc/rdp_fstab.qcom:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.qcom
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
