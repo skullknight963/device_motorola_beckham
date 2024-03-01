@@ -5,4 +5,6 @@ Device configuration for Motorola SDM660 Devices
 
 Supported devices :
 
-Payton, Evert, Chef, Beckham, Lake
+* Motorola Moto Z3 Play (beckham)
+* Motorola Moto G6 Plus (evert)
+* Motorola Moto G7 Plus (lake)
