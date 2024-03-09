@@ -83,6 +83,9 @@ TARGET_FS_CONFIG_GEN += \
     $(PLATFORM_PATH)/configs/config.fs \
     $(PLATFORM_PATH)/configs/mot_aids.fs
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(PLATFORM_PATH):libinit_sdm660
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sdm660
