@@ -109,6 +109,14 @@ debug.media.codec2=2
 # Color Mode
 vendor.display.enable_default_color_mode=1
 
+# Dalvik
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapsize=512m
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heaptargetutilization=0.75
+
 # Display
 debug.sf.disable_client_composition_cache=1
 debug.renderengine.backend=skiaglthreaded
