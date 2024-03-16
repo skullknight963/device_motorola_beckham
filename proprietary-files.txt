@@ -395,6 +395,14 @@ vendor/lib64/libsensorndkbridge.so
 # Offmode charging
 vendor/bin/charge_only_mode|7abae0e894fd36fd10795099b4a5025df2c1e817|0ba9713157beb424eef3e9af721374e18c88bd89
 
+# PASR - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
+vendor/lib/vendor.qti.memory.pasrmanager@1.0.so|a22cacb4a946ee1644ee8f78f540c9d2a7bc7998
+vendor/lib/vendor.qti.memory.pasrmanager@1.1.so|b159d09ea88e442009d56cbd6daca7bd1f5cb34b
+vendor/lib/vendor.qti.power.pasrmanager@1.0.so|52bb4592e829227f1417836ac3d2560a6e8fc0e7
+vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|f4a4ca6c518639551fb60e2a0287692d455bddd8
+vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|b5c361abda63650522efe75eb264df6237b614dc
+vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|ac738d8aba807b3b150618ae89a9994453fd7b1f
+
 # Perf - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
 system_ext/etc/perf/wlc_model.tflite|83cf4df067bc14c78f31943f32bcaf6f32419125
 system_ext/lib/libqti-perfd-client_system.so|e7efdcc9a641b5058d92ce94a3e352123da22571
