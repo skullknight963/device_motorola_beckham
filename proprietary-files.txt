@@ -720,6 +720,19 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.rp.so
 
+# Servicetracker - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
+vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|3dc34099147372ce9436585afa1ea0b32c7c52a3
+vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da895586c20aab7e6bd01b806d8128b6
+vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|2444ac738eb0cac7c4b57c73307af01bc2379800
+vendor/lib/vendor.qti.hardware.servicetracker@1.0.so|79c2b84d7cfd216490c9d0b75282fe63f84806ca
+vendor/lib/vendor.qti.hardware.servicetracker@1.1.so|fb294b2008346128b686d19f07ea960f766492e4
+vendor/lib/vendor.qti.hardware.servicetracker@1.2.so|9b9019ae47759911f184ae47d154143fdbc2dba6
+vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|2c6178adb7f63fe4765dc17e6ceb9522a2395fd8
+vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so|a0b113cb206254b9618141984bc3f0fb5e17c14b
+vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so|882130a0fd079f69eb7e2dbcaf6692f5426e2f4b
+vendor/lib64/vendor.qti.hardware.servicetracker@1.2.so|82a74faea8f0eb3a8ee6d82a03add453dc062185
+-vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml|40b6abd9b4be99dc5722eb60d71ee36764bf4ef3
+
 # Thermal - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
 vendor/bin/thermal-engine|6ee391c0b9f8d4ceea57521f584b75c60d2ffa09
 vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
