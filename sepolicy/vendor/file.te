@@ -26,6 +26,10 @@ type cutback_data_file, file_type, data_file_type;
 type cutback_socket, file_type;
 type audio_cutback_data_file, file_type, data_file_type;
 
+# Greybus
+type sysfs_greybus, fs_type, sysfs_type, mlstrustedobject;
+type sysfs_mods_camd, fs_type, sysfs_type, mlstrustedobject;
+
 # Healthd
 type sysfs_healthd, fs_type, sysfs_type, mlstrustedobject;
 

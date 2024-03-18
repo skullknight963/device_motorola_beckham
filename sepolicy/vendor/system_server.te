@@ -1,3 +1,7 @@
+# MotSpeakerHelperProximity
+binder_call(system_server, hal_audio_default)
+get_prop(system_server, batt_prop)
+
 binder_call(system_server,rild);
 
 allow system_server sysfs_vibrator:file read;

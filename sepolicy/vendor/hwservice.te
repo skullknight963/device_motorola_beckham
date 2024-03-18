@@ -1,3 +1,6 @@
+type hal_modmanager_hwservice, hwservice_manager_type;
+type hal_motvibrator_hwservice, hwservice_manager_type;
+
 type fpc_extension_service, hwservice_manager_type;
 
 type nxpese_hwservice, hwservice_manager_type;
