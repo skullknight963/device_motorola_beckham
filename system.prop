@@ -1,5 +1,5 @@
 #
-# system props for sdm660
+# system props for beckham
 #
 
 # ART
@@ -22,6 +22,9 @@ pm.sleep_mode=1
 # Dexopt
 pm.dexopt.first-boot=quicken
 pm.dexopt.bg-dexopt=everything
+
+# Misc
+debug.force_no_blanking=true
 
 # Radio
 DEVICE_PROVISIONED=1
