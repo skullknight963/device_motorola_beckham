@@ -1,3 +1,5 @@
+sys.mod.batterymode        u:object_r:batt_prop:s0
+
 vendor.ril.                u:object_r:vendor_radio_prop:s0
 rild.libpath               u:object_r:vendor_radio_prop:s0
 vendor.rmnet_vnd.rps_mask  u:object_r:vendor_usb_prop:s0
