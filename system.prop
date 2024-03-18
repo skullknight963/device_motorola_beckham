@@ -9,6 +9,9 @@ dalvik.vm.image-dex2oat-filter=quicken
 # Audio
 use.voice.path.for.pcm.voip=false
 
+# Blur
+ro.surface_flinger.supports_background_blur=0
+
 # Charger
 ro.charger.enable_suspend=true
 
