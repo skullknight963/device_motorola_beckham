@@ -384,6 +384,11 @@ vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmmosal_proprietary.so
 
+# Moto Mods - from foles QPFS30.130-15-11-10
+-system/priv-app/ModFmwkProxyService/ModFmwkProxyService.apk|32227ffb5ac5a073605ba9253672f63a560b2d03
+-system/priv-app/ModService/ModService.apk|c823ccd189721d1c39ba667e8a7d1151cdf88a8d
+-system/priv-app/ProjectorApp/ProjectorApp.apk|fd501856dc2f20a78397ef770cfe5f7a73ead9ca
+
 # Moto Permissions
 product/etc/permissions/com.motorola.motodisplay.xml
 system/etc/permissions/com.motorola.moto.xml:vendor/etc/permissions/com.motorola.moto.xml|ae00f0eb4b1e134e0f6f25586ec70f6faa00a528
@@ -392,8 +397,8 @@ vendor/etc/permissions/com.motorola.camera2.xml|6d77e9310c6647cda3c35f64097a14a1
 # MOTO RIL
 vendor/lib64/libsensorndkbridge.so
 
-# Offmode charging
-vendor/bin/charge_only_mode|7abae0e894fd36fd10795099b4a5025df2c1e817|0ba9713157beb424eef3e9af721374e18c88bd89
+# Offmode charging - from nash_retail (PPX29.159-24)
+vendor/bin/charge_only_mode|0ba9713157beb424eef3e9af721374e18c88bd89
 
 # PASR - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
 vendor/lib/vendor.qti.memory.pasrmanager@1.0.so|a22cacb4a946ee1644ee8f78f540c9d2a7bc7998
@@ -607,6 +612,9 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_qcrildb.sql
 vendor/radio/qcril_database/upgrade/9_version_qcrildb.sql
 
+# Radio (IMS) - from payton (modified)
+-product/priv-app/ims/ims.apk|15d8b960bae891286b70b29c703ab6ad8c6b461b
+
 # Radio - IMS
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
@@ -719,6 +727,10 @@ vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.rp.so
+
+# Sensors - from river QPUS30.52-33-11/df129:user/release-keys
+vendor/lib/sensors.ssc.so|6a7c2d2810b2e1ccf21ed3093b73abdfde1ca335
+vendor/lib64/sensors.ssc.so|19238bd20078d92e6fc0c2dbc82386b044f6395d
 
 # Servicetracker - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
 vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|3dc34099147372ce9436585afa1ea0b32c7c52a3

@@ -1,0 +1,17 @@
+bootstrap_go_package {
+    name: "soong-motorola-beckham-plugins",
+    pkgPath: "device/motorola/beckham/configs",
+    deps: [
+        "blueprint",
+        "blueprint-pathtools",
+        "soong",
+        "soong-android",
+        "soong-cc",
+        "soong-genrule",
+    ],
+    srcs: [
+        "init.go",
+        "main.go",
+    ],
+    pluginFor: ["soong_build"],
+}

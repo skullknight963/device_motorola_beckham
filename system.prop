@@ -1,5 +1,5 @@
 #
-# system props for sdm660
+# system props for beckham
 #
 
 # ART
@@ -41,6 +41,9 @@ ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024 
 ro.hwui.text_large_cache_width=2048 
 ro.hwui.text_large_cache_height=2048
+
+# Misc
+debug.force_no_blanking=true
 
 # Radio
 DEVICE_PROVISIONED=1
