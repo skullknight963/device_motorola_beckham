@@ -27,13 +27,10 @@ pm.dexopt.first-boot=quicken
 pm.dexopt.bg-dexopt=everything
 
 # Display
-debug.sf.enable_hwc_vds=1
-debug.sf.hw=1
 dev.pm.dyn_samplingrate=1
-persist.hwc.enable_vds=1
 
 # HWUI properties 
-ro.hwui.texture_cache_size=72 
+ro.hwui.texture_cache_size=96 
 ro.hwui.layer_cache_size=48 
 ro.hwui.r_buffer_cache_size=8 
 ro.hwui.path_cache_size=32 
@@ -44,6 +41,12 @@ ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024 
 ro.hwui.text_large_cache_width=2048 
 ro.hwui.text_large_cache_height=2048
+
+# Memory optimizations
+ro.vendor.qti.sys.fw.bg_apps_limit=60
+ro.vendor.qti.sys.fw.bservice_age=5000
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_limit=8
 
 # Misc
 debug.force_no_blanking=true

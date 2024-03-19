@@ -405,46 +405,45 @@ vendor/lib64/libsensorndkbridge.so
 # Offmode charging - from nash_retail (PPX29.159-24)
 vendor/bin/charge_only_mode|0ba9713157beb424eef3e9af721374e18c88bd89
 
-# PASR - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
-vendor/lib/vendor.qti.memory.pasrmanager@1.0.so|a22cacb4a946ee1644ee8f78f540c9d2a7bc7998
-vendor/lib/vendor.qti.memory.pasrmanager@1.1.so|b159d09ea88e442009d56cbd6daca7bd1f5cb34b
-vendor/lib/vendor.qti.power.pasrmanager@1.0.so|52bb4592e829227f1417836ac3d2560a6e8fc0e7
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|f4a4ca6c518639551fb60e2a0287692d455bddd8
-vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|b5c361abda63650522efe75eb264df6237b614dc
-vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|ac738d8aba807b3b150618ae89a9994453fd7b1f
+# PASR - from hanoip S2RI32.32-20-9-9-2
+vendor/lib/vendor.qti.memory.pasrmanager@1.0.so|c5cb17f183de38d2b1448754090dab6a47b567cd
+vendor/lib/vendor.qti.memory.pasrmanager@1.1.so|8b409d7d9223f38ac9ed507aa9ad68f1f23a88cc
+vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|7e332989976f3549fcdb6c7b990fef3844dd36ae
+vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|4254d087742dd950f0f524106e6262d1e15dda60
 
-# Perf - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
-system_ext/etc/perf/wlc_model.tflite|83cf4df067bc14c78f31943f32bcaf6f32419125
-system_ext/lib/libqti-perfd-client_system.so|e7efdcc9a641b5058d92ce94a3e352123da22571
-system_ext/lib/libqti-util_system.so|54b769e9e9d922b7394b0009545c68d3a5b162c7
-system_ext/lib/libqti_performance.so|1f40960488f61ce5e5415e5d835805f48d7fea62
-system_ext/lib64/libqti-perfd-client_system.so|708c2d6672f6c8674f8af17ca8ebf82ae40d780a
-system_ext/lib64/libqti-util_system.so|7deecb7ff48db2d832159730135052c8aed66e71
-system_ext/lib64/libqti_performance.so|3cbbc72af6e192177c9d058309b6dde31a825825
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|3b972dc987838eb2fda1f9ed694fe6ab5e498330
+# Perf - from hanoip S2RI32.32-20-9-9-2
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|f03cd31f03b08e2c07e976399406cc98befd79a7
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
-vendor/lib/libperfconfig.so|a7927edfdddafe90ea53bede0629ebc8a686152d
-vendor/lib/libperfgluelayer.so|8cc20a3ddf15d795ed024ac7c5c0a77888026d9f
-vendor/lib/libqti-perfd-client.so|9a2550b2ea07e885a51c8bb8c5a5b2263d09cf64
-vendor/lib/libqti-perfd.so|64bc131758dad1dbe3f017f23a5c952cc2aefa9f
-vendor/lib/libqti-util.so|6217ae5fa31a8c8043edb53d3ced6d87b468adde
-vendor/lib/libqti-utils.so|1b46f423cc1c118bc8410e5cc2a1eca60893d142
-vendor/lib64/libperfconfig.so|5456add6869cd61e10b47c7387b498603d396f9e
-vendor/lib64/libperfgluelayer.so|5061d28b38d425a44c563bbe2f5d9ed8a2618e99
-vendor/lib64/libqti-perfd-client.so|1263f0467dcd90ed91500eacdb6af94c9e3d0e40
-vendor/lib64/libqti-perfd.so|3dbd50a777b7db759d289da7f85f1361b27849f6
-vendor/lib64/libqti-util.so|6c1f2bdc6e663a913c3090cf9880101a61c5cad5
-vendor/lib64/libqti-utils.so|851798783cd77f7f847a67f1fff65ff727c9522b
+vendor/lib/libperfconfig.so|032d646757153d2da70332843f6ffd0d3c0c1b16
+vendor/lib/libperfgluelayer.so|86f72d9980f7f5458dbe6f18a47c52e3d5a1cd91
+vendor/lib/libperfioctl.so|792c14e64aa6f83832127238f648394da51e27ce
+vendor/lib/libqti-perfd-client.so|c96de06bca2785983c4642764be13ed9810b7a78
+vendor/lib/libqti-perfd.so|b7ea44cdab92ed8d41f5cb1d09a6878a0c97740c
+vendor/lib/libqti-util.so|9a071a7fe1eab09cdef14b3bb44d9e178175ee9f
+vendor/lib64/libperfconfig.so|a8a8f8c966e7a92cff1439eeaa103b128eafb5d3
+vendor/lib64/libperfgluelayer.so|00fbc6c9a8f817279dbd3836b1b63aadbed03d15
+vendor/lib64/libperfioctl.so|247ccf6c8e4477d4f464cac7bed05f6e5262c948
+vendor/lib64/libqti-perfd-client.so|cd4503fba00ed1f9bd0594aaeeabad0e9cc69b79
+vendor/lib64/libqti-perfd.so|3d550ac8a6d35b98b4388424feff9132a316bd35
+vendor/lib64/libqti-util.so|559252e14782c0849603decb6462a3e4410b713c
 
-# Perf-IOP - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
-system_ext/lib/vendor.qti.hardware.iop@2.0.so|56bc16299ff42c8e21f2595df29ec99f1cbc6f8c
-system_ext/lib64/vendor.qti.hardware.iop@2.0.so|fa4836e76c4b27840184fb097c9d38df9450e0a5
-vendor/lib/libqti-iopd-client.so|3a68a0efb8e31df21a00a864e6a4c8644c92bfc2
-vendor/lib/vendor.qti.hardware.iop@1.0.so|c1ef9e7b57c78b87776d4236a35776b2b84a6741
-vendor/lib/vendor.qti.hardware.iop@2.0.so|d93690b489da65e3203080054a51f72b0b3b67ba
-vendor/lib64/libqti-iopd-client.so|9f644b46e1c9cae11b6131cee099d47ff8d4e730
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|23d85063dc470a2eee35a21e41a431a78f37c0b4
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|2f56757d0cbb082bcf7a4432243374ce53b2e6ec
+# Perf (io-prefetch) - from hanoip S2RI32.32-20-9-9-2
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|98834efcbf84743c3150d06cea9ba2267bad3afe
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
+vendor/lib64/libqti-iopd-client.so|50c6699c623f348b8dd0bc11b894f5372cc93a6a
+vendor/lib64/libqti-iopd.so|895fed27eb7304b33dd0f84002e8702ad788407b
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|1c295b7f483244df5d3259b8361aa83242d3d82f
+
+# Perf (learningmodule) - from hanoip S2RI32.32-20-9-9-2
+vendor/etc/lm/AdaptLaunchFeature.xml|d864a3d5add9408b808ca2ae3dc28279d6481d27
+vendor/etc/lm/AppClassifierFeature.xml|80bcbf8fc50ed706e8549432140323dbb9e8ae4c
+vendor/etc/lm/GameOptimizationFeature.xml|5267dbb620e40e3972eaa72a2aa21685b3bc71a2
+vendor/lib64/libadaptlaunch.so|aa1da37d4ac954e273c310250fa634c7e1ae510f
+vendor/lib64/libappclassifier.so|0a3f393ceb33ca37a3ee7c608997807589f88418
+vendor/lib64/libgameoptfeature.so|90f27f9a822b493abbea642b0b062f1a874cd6f1
+vendor/lib64/liblearningmodule.so|3e5e0c1a84149d86e08ba65b88a4d048c2223865
+vendor/lib64/libmeters-ns.so|08ede734456721d2b450cb46f17237d9a9b6cf79
+vendor/lib64/libmeters.so|50f9874933f73be22dc871a29160645780116296
 
 # Peripheral manager
 vendor/bin/pm-proxy
@@ -737,18 +736,11 @@ vendor/lib64/sensors.rp.so
 vendor/lib/sensors.ssc.so|6a7c2d2810b2e1ccf21ed3093b73abdfde1ca335
 vendor/lib64/sensors.ssc.so|19238bd20078d92e6fc0c2dbc82386b044f6395d
 
-# Servicetracker - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
-vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|3dc34099147372ce9436585afa1ea0b32c7c52a3
+# Servicetracker - from hanoip S2RI32.32-20-9-9-2
+vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|46268253a28d60c28e7a8639accdbc49bc572f5f
 vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da895586c20aab7e6bd01b806d8128b6
-vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|2444ac738eb0cac7c4b57c73307af01bc2379800
-vendor/lib/vendor.qti.hardware.servicetracker@1.0.so|79c2b84d7cfd216490c9d0b75282fe63f84806ca
-vendor/lib/vendor.qti.hardware.servicetracker@1.1.so|fb294b2008346128b686d19f07ea960f766492e4
-vendor/lib/vendor.qti.hardware.servicetracker@1.2.so|9b9019ae47759911f184ae47d154143fdbc2dba6
-vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|2c6178adb7f63fe4765dc17e6ceb9522a2395fd8
-vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so|a0b113cb206254b9618141984bc3f0fb5e17c14b
-vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so|882130a0fd079f69eb7e2dbcaf6692f5426e2f4b
-vendor/lib64/vendor.qti.hardware.servicetracker@1.2.so|82a74faea8f0eb3a8ee6d82a03add453dc062185
 -vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml|40b6abd9b4be99dc5722eb60d71ee36764bf4ef3
+vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|1745bf39413e1e867131eadff7417620c6daeb1c
 
 # Thermal - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
 vendor/bin/thermal-engine|6ee391c0b9f8d4ceea57521f584b75c60d2ffa09
