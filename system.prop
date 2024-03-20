@@ -21,6 +21,7 @@ ro.sys.fw.dex2oat_thread_count=8
 
 # Deep Sleep
 pm.sleep_mode=1
+vendor.post_boot.parsed=1s
 
 # Dexopt
 pm.dexopt.first-boot=quicken
