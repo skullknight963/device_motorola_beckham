@@ -114,22 +114,12 @@ vendor.video.disable.ubwc=1
 # Codec2 switch
 debug.media.codec2=2
 
-# Color Mode
-vendor.display.enable_default_color_mode=1
-
 # Display
 debug.sf.disable_client_composition_cache=1
-debug.renderengine.backend=skiaglthreaded
-debug.hwui.skia_atrace_enabled=false
-debug.sf.auto_latch_unsignaled=false
-debug.sf.disable_backpressure=1
-dev.pm.dyn_samplingrate=1
-ro.hardware.egl=adreno
-ro.hardware.vulkan=sdm660
-ro.opengles.version=196610
-vendor.display.disable_scaler=1
-vendor.gralloc.enable_fb_ubwc=1
 debug.sf.predict_hwc_composition_strategy=0
+debug.renderengine.backend=skiaglthreaded
+debug.sf.disable_backpressure=1
+vendor.display.disable_scaler=1
 vendor.gralloc.disable_ahardware_buffer=1
 
 # Factory reset partition
@@ -149,6 +139,11 @@ ro.vendor.audio.sdk.fluencetype=none
 
 # FS-verity
 ro.apk_verity.mode=2
+
+# Graphics
+ro.hardware.egl=adreno
+ro.hardware.vulkan=sdm660
+ro.opengles.version=196610
 
 # HEH filename encryption is being dropped
 ro.crypto.volume.filenames_mode=aes-256-cts
