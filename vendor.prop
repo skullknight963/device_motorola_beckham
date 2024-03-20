@@ -120,6 +120,7 @@ debug.sf.predict_hwc_composition_strategy=0
 debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_backpressure=1
 vendor.display.disable_scaler=1
+vendor.display.use_smooth_motion=1
 vendor.gralloc.disable_ahardware_buffer=1
 
 # Factory reset partition
@@ -154,8 +155,12 @@ sys.mod.platformsdkversion=281
 # OMX
 debug.stagefright.omx_default_rank=0
 
+# PASR
+vendor.power.pasr.enabled=true
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf-hal.ver=2.2
 
 # Radio
 persist.dbg.volte_avail_ovr=1

@@ -190,6 +190,16 @@ vendor/lib64/libscvePanorama_lite.so
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
+# ESE-Powermanager - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|040212c2c39ca3f2090291dd3a7f49979e5003df
+vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
+vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so|8f040162d31397f3851d5507cf4118b41db3b46a
+vendor/lib/vendor.qti.esepowermanager@1.0.so|f0d2030ddc5ba93404e09821ec485bb228dbc937
+vendor/lib/vendor.qti.esepowermanager@1.1.so|8de052fa33317db94247e74dfe6b8db93a378bec
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|7b67b47030f00af1c2e207995eea05f05fb91b23
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|6585b5976a98053fb4d2b51c32337ebe8960d427
+vendor/lib64/vendor.qti.esepowermanager@1.1.so|61d7c35edb403f8de4be2e483431cb26109ef0ae
+
 # FM
 -product/lib/vendor.qti.hardware.fm@1.0.so
 -product/lib64/vendor.qti.hardware.fm@1.0.so
@@ -395,44 +405,37 @@ vendor/lib64/libsensorndkbridge.so
 # Offmode charging - from nash_retail (PPX29.159-24)
 vendor/bin/charge_only_mode|0ba9713157beb424eef3e9af721374e18c88bd89
 
-# Perf
-system/lib/libqti-perfd-client_system.so
-system/lib/libqti_performance.so
-system/lib64/libqti-perfd-client_system.so
-system/lib64/libqti_performance.so
-vendor/bin/energy-awareness
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
-vendor/lib/libperfconfig.so
-vendor/lib/libperfgluelayer.so
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-perfd.so
-vendor/lib/libqti-util.so
-vendor/lib/libqti-utils.so
-vendor/lib64/libperfconfig.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/libqti-utils.so
+# PASR - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
+vendor/lib/vendor.qti.memory.pasrmanager@1.0.so|a22cacb4a946ee1644ee8f78f540c9d2a7bc7998
+vendor/lib/vendor.qti.memory.pasrmanager@1.1.so|b159d09ea88e442009d56cbd6daca7bd1f5cb34b
+vendor/lib/vendor.qti.power.pasrmanager@1.0.so|52bb4592e829227f1417836ac3d2560a6e8fc0e7
+vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|f4a4ca6c518639551fb60e2a0287692d455bddd8
+vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|b5c361abda63650522efe75eb264df6237b614dc
+vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|ac738d8aba807b3b150618ae89a9994453fd7b1f
 
-# Perf - IOP
-product/lib/vendor.qti.hardware.iop@1.0.so
-product/lib/vendor.qti.hardware.iop@2.0.so
-product/lib64/vendor.qti.hardware.iop@1.0.so
-product/lib64/vendor.qti.hardware.iop@2.0.so
-system/lib/libqti-iopd-client_system.so
-system/lib/libqti-util_system.so
-system/lib64/libqti-iopd-client_system.so
-system/lib64/libqti-util_system.so
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
-vendor/lib/libqti-iopd-client.so
-vendor/lib/vendor.qti.hardware.iop@1.0.so
-vendor/lib/vendor.qti.hardware.iop@2.0.so
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
+# Perf - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|3b972dc987838eb2fda1f9ed694fe6ab5e498330
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
+vendor/lib/libperfconfig.so|a7927edfdddafe90ea53bede0629ebc8a686152d
+vendor/lib/libperfgluelayer.so|8cc20a3ddf15d795ed024ac7c5c0a77888026d9f
+vendor/lib/libqti-perfd-client.so|9a2550b2ea07e885a51c8bb8c5a5b2263d09cf64
+vendor/lib/libqti-perfd.so|64bc131758dad1dbe3f017f23a5c952cc2aefa9f
+vendor/lib/libqti-util.so|6217ae5fa31a8c8043edb53d3ced6d87b468adde
+vendor/lib/libqti-utils.so|1b46f423cc1c118bc8410e5cc2a1eca60893d142
+vendor/lib64/libperfconfig.so|5456add6869cd61e10b47c7387b498603d396f9e
+vendor/lib64/libperfgluelayer.so|5061d28b38d425a44c563bbe2f5d9ed8a2618e99
+vendor/lib64/libqti-perfd-client.so|1263f0467dcd90ed91500eacdb6af94c9e3d0e40
+vendor/lib64/libqti-perfd.so|3dbd50a777b7db759d289da7f85f1361b27849f6
+vendor/lib64/libqti-util.so|6c1f2bdc6e663a913c3090cf9880101a61c5cad5
+vendor/lib64/libqti-utils.so|851798783cd77f7f847a67f1fff65ff727c9522b
+
+# Perf (io-prefetch) - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
+vendor/lib/libqti-iopd-client.so|3a68a0efb8e31df21a00a864e6a4c8644c92bfc2
+vendor/lib/vendor.qti.hardware.iop@1.0.so|c1ef9e7b57c78b87776d4236a35776b2b84a6741
+vendor/lib/vendor.qti.hardware.iop@2.0.so|d93690b489da65e3203080054a51f72b0b3b67ba
+vendor/lib64/libqti-iopd-client.so|9f644b46e1c9cae11b6131cee099d47ff8d4e730
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|23d85063dc470a2eee35a21e41a431a78f37c0b4
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|2f56757d0cbb082bcf7a4432243374ce53b2e6ec
 
 # Peripheral manager
 vendor/bin/pm-proxy
@@ -717,6 +720,12 @@ vendor/lib64/sensors.rp.so
 # Sensors - from river -  motorola/river_retail/river: 10/QPUS30.52-33-11
 vendor/lib/sensors.ssc.so|6a7c2d2810b2e1ccf21ed3093b73abdfde1ca335
 vendor/lib64/sensors.ssc.so|19238bd20078d92e6fc0c2dbc82386b044f6395d
+
+# Servicetracker - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
+vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|3dc34099147372ce9436585afa1ea0b32c7c52a3
+vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da895586c20aab7e6bd01b806d8128b6
+-vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml|40b6abd9b4be99dc5722eb60d71ee36764bf4ef3
+vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|2c6178adb7f63fe4765dc17e6ceb9522a2395fd8
 
 # Thermal - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
 vendor/bin/thermal-engine|6ee391c0b9f8d4ceea57521f584b75c60d2ffa09
