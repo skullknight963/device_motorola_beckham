@@ -123,6 +123,9 @@ vendor.display.disable_scaler=1
 vendor.display.use_smooth_motion=1
 vendor.gralloc.disable_ahardware_buffer=1
 
+# DRM
+drm.service.enabled=true
+
 # Factory reset partition
 ro.frp.pst=/dev/block/platform/soc/c0c4000.sdhci/by-name/frp
 
