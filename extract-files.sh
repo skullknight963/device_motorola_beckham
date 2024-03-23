@@ -103,12 +103,6 @@ function blob_fixup() {
         vendor/lib64/libmdmcutback.so)
              "${PATCHELF}" --replace-needed "libqsap_sdk.so" "libqsap_shim.so" "${2}"
             ;;
-        # Fix missing symbols
-        vendor/lib64/libril-qc-hal-qmi.so)
-            for  LIBCUTILS_SHIM in $(grep -L "libcutils_shim.so" "${2}"); do
-                "${PATCHELF}" --add-needed "libcutils_shim.so" "$LIBCUTILS_SHIM"
-            done
-            ;;
         # memset shim
         vendor/bin/charge_only_mode)
             for  LIBMEMSET_SHIM in $(grep -L "libmemset_shim.so" "${2}"); do

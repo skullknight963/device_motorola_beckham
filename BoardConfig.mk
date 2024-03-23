@@ -148,11 +148,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # RIL
-TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 CUSTOM_APNS_FILE := $(DEVICE_PATH)/configs/sprint_apns.xml
 ENABLE_VENDOR_RIL_SERVICE := true
-ODM_MANIFEST_SKUS += qcril
-ODM_MANIFEST_QCRIL_FILES := $(DEVICE_PATH)/configs/vintf/odm_manifest_qcril.xml
 
 # Root
 BOARD_ROOT_EXTRA_SYMLINKS := \
