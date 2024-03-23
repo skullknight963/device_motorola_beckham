@@ -453,7 +453,6 @@ USE_DEX2OAT_DEBUG := false
 
 # Shims
 PRODUCT_PACKAGES += \
-    libgui_shim \
     libgui_shim_vendor \
     libmemset_shim \
     libqsap_shim
